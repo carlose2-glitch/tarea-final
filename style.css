@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;   
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color:aquamarine;
+}
+
+main{
+    border-radius: 0.5rem;
+    background-color: cadetblue;
+    width: 20rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+.link {
+    cursor: pointer;
+    border-radius: 0.5rem;
+    background-color: darkcyan;
+    border: solid;
+    border-color: antiquewhite;
+    border-width: 1px;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: scale 0.4s;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.link:hover{
+    scale: 1.1;
+
+}
+
+@media (max-width:425px){
+    main{
+        width: 75%;
+    }
+}
