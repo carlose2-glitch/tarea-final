@@ -82,12 +82,16 @@ footer p{
     body{
         height: auto;
     }
+  
     .principal{
         height: auto;
-        width: 85%;
+        width: 100%;
     }
     header{
         height: auto;
+    }
+    header h1{
+        text-align: center;
     }
     aside{
         height: auto;
