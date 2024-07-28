@@ -96,6 +96,9 @@ footer p{
     aside{
         height: auto;
     }
+    aside img{
+        width: 80%;
+    }
     .secundario{
         height: auto;
     }
