@@ -79,7 +79,23 @@ footer p{
 }
 
 @media (max-width:425px){
+    body{
+        height: auto;
+    }
     .principal{
-        width: 75%;
+        height: auto;
+        width: 85%;
+    }
+    header{
+        height: auto;
+    }
+    aside{
+        height: auto;
+    }
+    .secundario{
+        height: auto;
+    }
+    footer{
+        height: auto;
     }
 }
