@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    align-items: center;
+}
+body nav{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    background-color: aqua;
+    width: 100%;
+}
+body nav h2{
+    cursor: pointer;
+    transition: scale 0.4s;
+
+}
+body nav h2:hover{
+    color: blue;
+    scale: 1.1;
+
+}
+
+.video video{
+    width: 15rem;
+    height: 25rem;
+}
+
+.audio, .video{
+    display:none;
+}
