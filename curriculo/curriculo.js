@@ -9,7 +9,7 @@ body.innerHTML = ` <main class="principal">
 
           <aside>
             <article>
-                <img src="./img/WhatsApp_Image_2024-07-27_at_7.15.26_PM-removebg-preview.png" alt="img">
+                <img src="../img/WhatsApp_Image_2024-07-27_at_7.15.26_PM-removebg-preview.png" alt="img">
             </article>
           
             <article>
